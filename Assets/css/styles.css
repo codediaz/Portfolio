@@ -19,7 +19,7 @@
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 916px){
   :root{
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
@@ -109,6 +109,7 @@ img{
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
+  
 }
 .l-header{
   width: 100%;
@@ -191,10 +192,12 @@ img{
 }
 .home__data{
   align-self: center;
+ 
+  
 }
 .home__title{
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: 10px;
 }
 .home__title-color{
   color: var(--first-color);
@@ -445,7 +448,7 @@ img{
   }
   .home__img{
     width: 457px;
-    bottom: 15%;
+    bottom: 0.1%;
    
   }
 
@@ -475,7 +478,27 @@ img{
     margin-left: auto;
     margin-right: auto;
   }
+  .home__data{
+    padding-bottom: 1%;
+  }
   .home__img{
     right: 10%;
+    
+  }
+}
+@media screen and (max-width: 333px){
+  .nav__menu{
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--second-color);
+    transition: .5s;
+  }
+  .home__img{
+    width: 200px;
+    bottom: 0.1%;
   }
 }
