@@ -503,3 +503,36 @@ img{
     bottom: 0.1%;
   }
 }
+
+@media screen and (max-height: 591px){
+  .nav__menu{
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--second-color);
+    transition: .5s;
+  }
+  .home__img{
+    width: 200px;
+    bottom: 0.1%;
+  }
+}
+@media screen and (max-width: 362px){
+  .nav__menu{
+    position: fixed;
+    top: var(--header-height);
+    right: -100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
+    background-color: var(--second-color);
+    transition: .5s;
+  }
+  .home__img{
+    width: 150px;
+    bottom: 0.1%;
+  }
+}
