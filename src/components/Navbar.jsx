@@ -9,11 +9,22 @@ const Navbar = () => {
           <p>{ABOUT_ME.nickname}</p>
         </div>
         <div className="flex items-center justify-center gap-4 m-8 text-xl">
+            <a href="https://github.com/codediaz" target='_blank'>
             <FaGithub/>
+            </a>
+            <a href="https://www.linkedin.com/in/sergio-diaz-fernandez" target='_blank'>
             <FaLinkedin/>
+            </a>
+            <a href="https://www.tiktok.com/@codediaz_" target='_blank'>
             <FaTiktok/>
+            </a>
+            <a href="https://x.com/codediaz_" target='_blank'>
             <FaTwitter/>
+            </a>
+            {/* <a href="" target='_blank'>
             <FaInstagram/>
+            </a> */}
+
         </div>
     </nav>
     );
