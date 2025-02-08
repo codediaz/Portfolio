@@ -29,3 +29,18 @@ export const EXPERIENCES = [
         technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
     },
 ];
+
+export const PROJECTS = [
+    {
+        title: "E-Commerce Platform",
+        image: "",
+        description: `Developed an e-commerce platform using React.js and Node.js. Implemented user authentication and authorization using JWT. Integrated with Stripe API for payment processing. Designed and developed responsive user interfaces.`,
+        technologies: ["React.js", "Node.js", "Express.js", "Stripe API"],
+    },
+    {
+        title: "Social Media App",
+        image: "",
+        description: `Built a social media app using MERN stack. Implemented user profiles, posts, and comments. Integrated with Cloudinary API for image upload. Designed and developed RESTful APIs for frontend integration.`,
+        technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Cloudinary API"],
+    },
+];
