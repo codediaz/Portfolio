@@ -1,4 +1,5 @@
 {
+  "homepage": "https://codediaz.github.io/Portfolio/",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "homepage": "https://codediaz.github.io/Portfolio/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^12.4.1",
