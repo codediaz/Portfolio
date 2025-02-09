@@ -5,7 +5,7 @@ const Navbar = () => {
 
     return (
         <nav className="mb-20 flex items-center justify-between py-6">
-        <div className="flex flex-shrink-0 items-center">
+        <div className="hidden lg:flex flex-shrink-0 items-center">
           <p>{ABOUT_ME.nickname}</p>
         </div>
         <div className="flex items-center justify-center gap-4 m-8 text-xl">
@@ -21,10 +21,6 @@ const Navbar = () => {
             <a href="https://x.com/codediaz_" target='_blank'>
             <FaTwitter/>
             </a>
-            {/* <a href="" target='_blank'>
-            <FaInstagram/>
-            </a> */}
-
         </div>
     </nav>
     );
